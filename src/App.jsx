@@ -6,6 +6,7 @@ import Header from "./component/header";
 import Intro from "./component/intro";
 import { Roadmap } from "./component/roadmap";
 import { Service } from "./component/service";
+import {Swipers} from "./component/swiper";
 import { Tokenomics } from "./component/tokenomics";
 import { Upcoming } from "./component/upcoming";
 import "./css/bootstrap.min.css";

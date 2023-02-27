@@ -17,8 +17,12 @@ export const Tokenomics = () => {
   return (
     <div className="tk container-fluid">
       <div className="wrapper">
-        <div className="tk-had p-3 text-center">
+        <div className="tk-had p-3 text-light text-center">
           <h1 className="text-light">TOKENOMICS</h1>
+          <h4>
+            $LOPO is a streamable utility token, <br /> planned to provide a wide range
+            of benefits and incentives for LOPO users.
+          </h4>
         </div>
         <div className="row justify-content-center align-item-center">
           <div className="col-lg-6 col-sm-8 ">

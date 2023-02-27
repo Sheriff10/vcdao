@@ -197,19 +197,32 @@ header .menu-btn .menu-btn-burger.open::after {
 /* service */
 .service {
   padding: 100px 5px;
+  background: #000;
+  color: #ffffffff;
 }
 .service .service-head {
   padding: 30px;
 }
+.service .card-con .card-img{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 .service .card-con{
-  padding: 3px 5px;
-  margin: 5px;
-  background: #f1efef;
-  border-radius: 10px;
+  margin: 8px;
+  padding: 20px 1px;
+  text-align: center;
+  color: #fff;
+  --tw-bg-opacity: 1;
+  border-radius: 20px;
+  background: rgb(26 27 35/var(--tw-bg-opacity));
+
 
 }
 .service .card-con img {
-  border-radius: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
   /* margin: 10px 3px; */
   border: 2px solid #262626;
 }
@@ -360,32 +373,48 @@ header .menu-btn .menu-btn-burger.open::after {
 }
 
 /* FOOTER */
-.footer{
-  padding-top: 50px;
-  position: relative;
-  background: #000;
-  color: #fff;
+footer{
+  padding: 3px 10px;
 }
-.footer .footer-head{
+footer .footer-head{
+  margin-top: 50px;
   padding: 10px;
 }
-.footer .head{
-  background: linear-gradient(-20deg, rgba(0, 0, 0, 0.71), #03a3c759);
-  padding: 20px 10px;
-  border-radius: 10px 10px 0px 0px;
+
+footer .footer-head, footer .footer-social{
+  display: flex;
+  justify-content: center;
 }
-.footer .content{
-  position: relative;
+footer .footer-social {
   padding: 10px;
+  margin-bottom: 40px;
 }
-.footer ul{
-  padding: 0;
-  margin: 0;
+footer .footer-social .s-con{
+  padding: 30px 1px;
+  margin: 5px;
+  --bg-opacity: 1;
+  background: rgba(250,250,250,var(--bg-opacity));
 }
-.footer ul li{
-list-style-type: none;
-padding: 10px 1px;
+footer .footer-caption{
+  display: flex;
+  justify-content: space-between;
 }
-.footer .col-lg-3{
-  padding: 5px;
+footer .footer-caption ul{
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-caption li{
+  list-style-type: none;
+  padding: 5px 10px;
+}
+footer .footer-caption li a{
+  color: #4a4949;
+  font-size: 14px;
+  text-decoration: none;
+}
+@media (max-width: 910px){
+  footer .footer-caption,
+  footer .footer-caption ul{
+    display: block;
+  }
 }

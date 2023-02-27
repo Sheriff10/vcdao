@@ -8,22 +8,22 @@ export const Service = () => {
     cardFunc(
       "s1.jpeg",
       "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place for you to tell a story and let yourusers know a little more about you."
+      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
     cardFunc(
       "s2.jpeg",
       "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place for you to tell a story and let yourusers know a little more about you."
+      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
     cardFunc(
       "s3.jpeg",
       "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place for you to tell a story and let yourusers know a little more about you."
+      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
     cardFunc(
       "s4.jpeg",
       "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place for you to tell a story and let yourusers know a little more about you."
+      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
   ];
   return (
@@ -41,11 +41,11 @@ export const Service = () => {
             </div>
           </div>
           <div className="service-body">
-            <div className="row">
+            <div className="row justify-content-center">
               {carArr.map((i, index) => (
-                <div className="col-lg-3 col-md-6 col-6" key={index}>
+                <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
                   <div className="card-con">
-                    <div className="card-img ">
+                    <div className="card-img">
                       <img src={i.img} className='img-thumbnail' alt="vcdao" />
                     </div>
                     <div className="card-head p-1">
