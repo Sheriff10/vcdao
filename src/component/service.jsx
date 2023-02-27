@@ -52,7 +52,7 @@ export const Service = () => {
                       <h4>{i.title}</h4>
                     </div>
                     <div className="card-text p-1">
-                      {i.text}
+                      <small>{i.text}</small>
                     </div>
                   </div>
                 </div>
