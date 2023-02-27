@@ -22,7 +22,7 @@ export const Roadmap = () => {
         </div>
         <div className="roadmap-data">
           <div className="container">
-            <div className="head">
+            <div className="head justify-content-center">
               <div className="head-icon p-1 ">
                 <FaRoad />
               </div>
