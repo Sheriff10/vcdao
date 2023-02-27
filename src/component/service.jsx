@@ -43,7 +43,7 @@ export const Service = () => {
           <div className="service-body">
             <div className="row">
               {carArr.map((i, index) => (
-                <div className="col-lg-3 col-sm-8" key={index}>
+                <div className="col-lg-3 col-sm-6" key={index}>
                   <div className="card-con  p-2 m-1">
                     <div className="card-img ">
                       <img src={i.img} className='img-thumbnail' alt="vcdao" />
