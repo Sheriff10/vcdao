@@ -28,7 +28,10 @@ export const Tokenomics = () => {
           <div className="col-lg-6 col-sm-8 ">
             <div className="tk-card m-2">
               <div className="row">
-                {tkCardArr.map((i, index) => (
+                <div className="tk-img">
+                  <img src="tk.png" alt="tokenomics" className="img-fluid " />
+                </div>
+                {/* {tkCardArr.map((i, index) => (
                   <div className="col-lg-12 p-2 row" key={index}>
                     <div className="col-2">
                       <div className={`icon ${i.color}`}>
@@ -44,16 +47,15 @@ export const Tokenomics = () => {
                       <span>{i.result}</span>
                     </div>
                   </div>
-                ))}
+                ))} */}
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-sm-8 row align-items-center text-center">
             <div className="tk-btns">
               <div className="head text-light">
-                <h4>TRIAD DAO TOKEN INFO AND COMMUNITY</h4>
                 <div className="input-group mb-3">
-                  <span className="input-group-text">ARB Chain:</span>
+                  <span className="input-group-text">TRIAD Token:</span>
                   <input
                     type="text"
                     value={"0xd8D4000dd9ad501FD0Ea918e2f0a22C62668Af88"}
@@ -89,19 +91,9 @@ export const Tokenomics = () => {
                 </div>
                 <div className="socials">
                   <div className="row">
-                    <div className="col-lg-4 p-2 col-md-6 col-sm-12">
-                      <button className="btn btn-outline-info">
-                        <FaTelegram /> Telegram
-                      </button>
-                    </div>
-                    <div className="col-lg-4 p-2 col-md-6 col-sm-12">
-                      <button className="btn btn-outline-primary">
-                        <FaTwitter /> Twitter
-                      </button>
-                    </div>
-                    <div className="col-lg-4 p-2 col-md-12 col-sm-12">
-                      <button className="btn btn-outline-danger">
-                        <FaChartBar /> Arbiscan
+                    <div className="col-12 p-2">
+                      <button className="btn col-12 btn-outline-danger">
+                        <FaChartBar /> Scan on Arbiscan.io
                       </button>
                     </div>
                   </div>

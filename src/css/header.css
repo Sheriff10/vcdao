@@ -127,36 +127,6 @@ header .menu-btn .menu-btn-burger.open::after {
   animation: stay 3s ease-in forwards;
 
 }
-.intro::before{
-  content: "";
-  position: absolute;
-  transition: all 3s ease-in;
-  background: linear-gradient(-90deg, transparent 0%, white 5%, white 100%);
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  animation: fadein 3s ease-in forwards;
-}
-
-@keyframes fadein {
-  0% {
-    left: 0vw;
-  }
-  100% {
-    left: -100vw;
-  }
-}
-@keyframes stay {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 0vw;
-  }
-  100% {
-    left: 0vw;
-  }
-}
 .intro .text-head {
   padding: 40px 10px;
 }
@@ -240,7 +210,6 @@ header .menu-btn .menu-btn-burger.open::after {
 }
 .roadmap .roadmap-data{
   padding: 30px 1px;
-  background: #ffc105;
 }
 .roadmap .roadmap-data .head{
   display: flex;
@@ -265,7 +234,8 @@ header .menu-btn .menu-btn-burger.open::after {
 }
 .roadmap .road-card-con .road-card .content{
   /* border: 3px solid #de3112; */
-  background: #161616;
+  --tw-bg-opacity: 1;
+  background: rgb(26 27 35/var(--tw-bg-opacity));
   color: #fff;
   padding: 20px 1px;
   border-radius: 0px 20px 0px 20px;
@@ -276,17 +246,8 @@ header .menu-btn .menu-btn-burger.open::after {
 .roadmap .road-card-con .road-card .content ul li{
   padding: 5px 0px;
 }
-
-.roadmap .road-card-con .road-card:hover .content{
-  background: #161616;
-  color: #fff;
-  font-size: 18px;
-  transition: all .3s ease-in-out;
-  box-shadow: 10px 10px 20px white;
-}
-.roadmap .road-card-con .road-card:hover .head{
-  transition: all .3s ease-in-out;
-  box-shadow: 10px 10px 20px white;
+.roadmap .rd-row{
+  display: flex;
 }
 
 
@@ -296,15 +257,16 @@ header .menu-btn .menu-btn-burger.open::after {
 /* tokenomics */
 .tk {
   padding: 0;
-  background: url('../../public/launchpad.jpeg');
+  /* background: url('../../public/launchpad.jpeg'); */
+  background: #000;
 }
 .tk .wrapper{
   padding: 50px 30px;
-  background: rgba(0, 0, 0, 0.67);
+  /* background: rgba(255, 255, 255, 0.875); */
 }
 .tk .tk-card {
-  padding: 50px;
-  background: #000000cd;
+  padding: 10px;
+  /* background: #000000cd; */
   /* background: linear-gradient(20deg, black, green); */
   font-weight: bold;
   border-radius: 20px;
@@ -312,7 +274,7 @@ header .menu-btn .menu-btn-burger.open::after {
   box-shadow: 10px 20px 10px black;
 }
 .tk .tk-btns {
-  background: linear-gradient(-20deg, rgba(0, 0, 0, 0.71), #03a3c759);
+  background: linear-gradient(-20deg, rgba(0, 0, 0, 0.71), #036bc759);
   padding: 50px 20px;
   margin: 20px 10px;
   border-radius: 20px;
@@ -320,25 +282,6 @@ header .menu-btn .menu-btn-burger.open::after {
 .tk .tk-btns img {
   width: 10%;
 }
-.tk .tk-card .red {
-  color: red;
-}
-.tk .tk-card .blue {
-  color: blue;
-}
-.tk .tk-card .pink {
-  color: #f95a74;
-}
-.tk .tk-card .purple {
-  color: purple;
-}
-.tk .tk-card .orange {
-  color: orange;
-}
-.tk .tk-card .green {
-  color: greenyellow;
-}
-/* 0047f9 */
 
 
 
@@ -393,7 +336,7 @@ footer .footer-social .s-con{
   padding: 30px 1px;
   margin: 5px;
   --bg-opacity: 1;
-  background: rgba(250,250,250,var(--bg-opacity));
+  background: #45454528;
 }
 footer .footer-caption{
   display: flex;

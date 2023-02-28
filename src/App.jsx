@@ -9,7 +9,7 @@ import { Service } from "./component/service";
 import {Swipers} from "./component/swiper";
 import { Tokenomics } from "./component/tokenomics";
 import { Upcoming } from "./component/upcoming";
-import "./css/bootstrap.min.css";
+// import "./css/bootstrap.min.css";
 import "./css/header.css";
 
 function App() {
