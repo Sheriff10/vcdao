@@ -1,8 +1,9 @@
 import React from "react";
 import { FaRoad } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
-import "swiper/css/virtual";
+import "swiper/css/pagination";
 
 export const Roadmap = () => {
   const map1 = [
@@ -28,6 +29,8 @@ export const Roadmap = () => {
     <>
       <div className="roadmap">
         <div className="roadmap-intro text-center">
+          <br />
+          <br />
           <h1>Lets Take you on a Journey</h1>
         </div>
         <div className="roadmap-img">
@@ -49,14 +52,30 @@ export const Roadmap = () => {
               <div className="container">
                 <div className="rd-row">
                   <Swiper
-                    spaceBetween={1}
-                    slidesPerView={
-                      windowWidth < 780 && windowWidth > 765
-                        ? 2
-                        : 3 || (windowWidth < 765 && windowWidth > 1)
-                        ? 1
-                        : 3 || windowWidth > 780 ? 3 : 3
-                    }
+                    slidesPerView={1}
+                    spaceBetween={5}
+                    pagination={true}
+                    grabCursor={true}
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 1,
+                        spaceBetween: 5,
+                      },
+                      768: {
+                        slidesPerView: 2,
+                        spaceBetween: 5,
+                      },
+                      1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 1,
+                      },
+                    }}
+                    modules={[Autoplay, Pagination]}
+                    className="mySwiper"
+                    autoplay={{
+                      delay: 1500,
+                      disableOnInteraction: false,
+                    }}
                   >
                     {cardArr.map((i, index) => (
                       <SwiperSlide key={index}>

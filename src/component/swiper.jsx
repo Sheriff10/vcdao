@@ -1,8 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
 import 'swiper/css/virtual';
+import "swiper/css/pagination";
 import { Children } from "react";
 
 export const Swipers = ({children}) => {
@@ -14,6 +16,7 @@ export const Swipers = ({children}) => {
       <Swiper
         spaceBetween={10}
         slidesPerView={3}
+        pagination={true} modules={[Pagination]} className="mySwiper"
         // onSlideChange={() => console.log("slide change")}
         // onSwiper={(swiper) => console.log(swiper)}
       >

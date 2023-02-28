@@ -5,12 +5,12 @@ export const About = () => {
     <div className="about">
       <div className="container">
         <div className="row align-item-center">
-          <div className="col-lg-6 col-sm-12 mt-4 text-primary">
+          <div className="col-lg-6 col-sm-12 mt-4 head text-primary">
             <h1>
               With the Right Software, <br /> Great Things Can Happen
             </h1>
           </div>
-          <div className="col-lg-6 col-sm-12 mt-3">
+          <div className="col-lg-6 col-sm-12 content mt-3">
             <p>
               I'm a paragraph. Click here to add your own text and edit me. It’s
               easy. Just click “Edit Text” or double click me to add your own
