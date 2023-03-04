@@ -15,8 +15,12 @@ import "./css/header.css";
 function App() {
   return (
     <>
+      <div className="spookybg">
+      <div className="sp-wrapper">
       <Header />
       <Intro />
+      </div>
+      </div>
       <About />
       <Upcoming />
       <Service />

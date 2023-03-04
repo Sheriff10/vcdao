@@ -40,7 +40,7 @@ const Intro = () => {
                     </div>
                   ))}
                 </div>
-                <button className="btn col-10 m-3 btn-outline-primary">
+                <button className="btn col-10 m-3 text-light btn-outline-secondary">
                   {" "}
                   <b>Launch App</b>
                 </button>
@@ -49,7 +49,7 @@ const Intro = () => {
             <div className="col-lg-6 col-sm-12 intro-img text-center">
               <div className="row">
                 <div className="intro-img-con">
-                  <img src="build.svg" className="img-fluid" alt="build" />
+                  <img src="vcLogo_light.png" className="img-fluid" alt="build" />
                 </div>
               </div>
             </div>

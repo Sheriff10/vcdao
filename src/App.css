@@ -12,3 +12,12 @@
 #root {
   font-family: "Ubuntu", sans-serif;
 }
+
+
+.spookybg{
+  background: url('../public/sp3.jpeg') no-repeat;
+  background-size:cover;
+}
+.spookybg .sp-wrapper{
+  background: #00000090;
+}

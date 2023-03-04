@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUserNinja, FaSpider, FaBookDead } from "react-icons/fa";
 
 export const Service = () => {
   const cardFunc = (img, title, text) => {
@@ -6,22 +7,17 @@ export const Service = () => {
   };
   const carArr = [
     cardFunc(
-      "s1.jpeg",
+      <FaUserNinja />,
       "Workflows That Work",
       "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
     cardFunc(
-      "s2.jpeg",
+      <FaSpider />,
       "Workflows That Work",
       "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
     cardFunc(
-      "s3.jpeg",
-      "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
-    ),
-    cardFunc(
-      "s4.jpeg",
+      <FaBookDead />,
       "Workflows That Work",
       "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
     ),
@@ -46,10 +42,15 @@ export const Service = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
                   <div className="card-con">
                     <div className="card-img">
-                      <img src={i.img} className='img-thumbnail' alt="vcdao" />
+                      {/* <img src={i.img} className='img-thumbnail' alt="vcdao" /> */}
+                      <div className="s-icon">
+                      {i.img}
+                      </div>
                     </div>
                     <div className="card-head p-1">
-                      <span className="h5"><b>{i.title}</b></span>
+                      <span className="h5">
+                        <b>{i.title}</b>
+                      </span>
                     </div>
                     <div className="card-text p-1">
                       <small>{i.text}</small>

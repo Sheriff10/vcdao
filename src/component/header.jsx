@@ -15,8 +15,8 @@ const Header = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-4">
-              <div className="col logo-con bg-secondary">
-                <h1>VC DAO</h1>
+              <div className="col logo-con">
+                <img src="../../vcLogo_head.png" alt="traidDao" className="header-logo"/>
               </div>
             </div>
             <div className="col-8 ">
