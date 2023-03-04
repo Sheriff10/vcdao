@@ -257,6 +257,11 @@ header .header-logo{
 }
 
 /* ROADMAP */
+.roadmap{
+  /* background: #111010; */
+  background: linear-gradient(-60deg, #111010 30%, #bb0404);
+  color: #fff;
+}
 .roadmap .roadmap-img {
   text-align: center;
 }

@@ -33,6 +33,7 @@ export const Roadmap = () => {
           <br />
           <h1>Lets Take you on a Journey</h1>
         </div>
+        <br />
         <div className="roadmap-img">
           <img src="road.jpg" alt="roadmap" className="img-fluid" />
         </div>
