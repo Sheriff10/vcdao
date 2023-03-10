@@ -27,7 +27,7 @@ export const Roadmap = () => {
   console.log(windowWidth);
   return (
     <>
-      <div className="roadmap">
+      <div className="roadmap" id="roadmap">
         <div className="roadmap-intro text-center">
           <br />
           <br />
@@ -35,7 +35,7 @@ export const Roadmap = () => {
         </div>
         <br />
         <div className="roadmap-img">
-          <img src="road.jpg" alt="roadmap" className="img-fluid" />
+          <img src="rd.jpg" alt="roadmap" className="img-fluid" />
         </div>
         <div className="roadmap-data">
           <div className="container">

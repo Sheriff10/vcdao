@@ -7,17 +7,20 @@ export const Upcoming = () => {
         <div className="container-fluid">
           <div className="container">
             <div className="up-title text-center p-5 text-primary">
-                <h1>UPCOMING</h1>
+              <h1>UPCOMING</h1>
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-5 uw col-md-8 col-sm-12">
                 <div className="up-head">
                   <h1>DEX</h1>
                   <span>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Facere ullam animi quis quo alias voluptatum dicta eius.
-                    Voluptatibus facere aspernatur quibusdam quo, excepturi,
-                    harum cumque possimus repellat ipsam tempore sapiente.ƒ
+                    Get ready for a game-changing launch! Our team is building a
+                    cutting-edge decentralized exchange, powered by blockchain
+                    technology. Trade cryptocurrencies securely and
+                    transparently on our intuitive platform. With rigorous testing and auditing
+                    of our smart contracts, we're committed to providing a safe
+                    and reliable experience. Join us on this exciting journey
+                    towards a more decentralized future
                   </span>
                 </div>
                 <div className="up-img">
@@ -26,12 +29,14 @@ export const Upcoming = () => {
               </div>
               <div className="col-lg-5 uw col-md-8 col-sm-12">
                 <div className="up-head">
-                  <h1>DEX</h1>
+                  <h1>Launchpad</h1>
                   <span>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Facere ullam animi quis quo alias voluptatum dicta eius.
-                    Voluptatibus facere aspernatur quibusdam quo, excepturi,
-                    harum cumque possimus repellat ipsam tempore sapiente.ƒ
+                    Our launchpad will allow startups to raise funds by offering
+                    their tokens to investors. Startups will be required to
+                    submit their project details, including whitepapers, team
+                    details, and business plans. Investors will have access to
+                    this information, allowing them to make informed decisions
+                    about which projects to invest in.
                   </span>
                 </div>
                 <div className="up-img">

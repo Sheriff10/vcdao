@@ -195,7 +195,7 @@ header .header-logo{
 .about {
   color: #fff;
   padding: 200px 10px;
-  /* background: linear-gradient(20deg, #161616 , #7ec219); */
+  background: linear-gradient(20deg, #161616 , #7ec219);
   background: #161616;
   text-align: center;
 }
@@ -234,6 +234,10 @@ header .header-logo{
   --tw-bg-opacity: 1;
   border-radius: 20px;
   background: rgb(26 27 35 / var(--tw-bg-opacity));
+}
+.service .card-con:hover{
+  transition: all .5s ease;
+  transform: scale(1.1);
 }
 /* .service .card-con img {
   border-radius: 50%;
@@ -320,11 +324,12 @@ header .header-logo{
 .tk {
   padding: 0;
   /* background: url('../../public/launchpad.jpeg'); */
-  background: #000;
+  background: url('../../public/abt-bg.jpg');
+  background-size: cover;
 }
 .tk .wrapper {
   padding: 50px 30px;
-  /* background: rgba(255, 255, 255, 0.875); */
+  background: #000000b3;
 }
 .tk .tk-card {
   padding: 10px;
@@ -368,11 +373,12 @@ header .header-logo{
 .up .uw:hover .up-head {
   color: black;
   transition: all 0.1s ease;
+  transform: scale(1);
   background: #fff;
 }
 .up .uw:hover img {
   transition: all 0.5s ease;
-  width: 110%;
+  transform: scale(1.1);
 }
 
 /* FOOTER */

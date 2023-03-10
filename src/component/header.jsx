@@ -26,13 +26,18 @@ const Header = () => {
                     <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#about">About</a>
                   </li>
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#roadmap">Roadmap</a>
                   </li>
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#tk">Tokenomics</a>
+                  </li>
+                  <li>
+                    <div className="btn btn-light">
+                      whitepaper
+                    </div>
                   </li>
                 </ul>
               </div>

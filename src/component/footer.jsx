@@ -18,8 +18,7 @@ export const Footer = () => {
           <div className="col-lg-8 col-12">
             <h2>Join our community</h2>
             <p>
-              Chat with us and others in the community to learn more about Yield
-              Protocol.
+              Chat with us and others in the community to learn more about TRIAD DAO.
             </p>
           </div>
         </div>
@@ -52,7 +51,7 @@ export const Footer = () => {
                 </li>
               ))}
               <li>
-                <a href="#"> Career</a>
+                <a href="#"> Whitepaper</a>
               </li>
               <li>
                 <a href="#"> Launchpad</a>

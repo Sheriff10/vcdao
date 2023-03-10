@@ -8,18 +8,18 @@ export const Service = () => {
   const carArr = [
     cardFunc(
       <FaUserNinja />,
-      "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
+      "Secure and Transparent Trading",
+      "Building a DEX  that enables secure and transparent trading without a central authority"
     ),
     cardFunc(
       <FaSpider />,
-      "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
+      "IDO/ICO",
+      "We provide launchpad features a carefully curated selection of high-potential projects"
     ),
     cardFunc(
       <FaBookDead />,
-      "Workflows That Work",
-      "I'm a paragraph. Click here to add your own text and editme. I’m a great place"
+      "Decentralized Autonomous Organization",
+      "DAO allows users to participate in governance decisions and earn rewards for their contributions"
     ),
   ];
   return (
@@ -30,9 +30,10 @@ export const Service = () => {
             <h1>What We Offer</h1> <br />
             <div className="col-lg-6 col-sm-12">
               <p>
-                I'm a paragraph. Click here to add your own text and edit me.
-                It’s easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font.
+                Our upcoming launch offers a suite of cutting-edge DeFi tools,
+                including a decentralized exchange (DEX), launchpad, and DAO. With a
+                user-friendly interface and rigorous security measures, our
+                platform is perfect for both novice and experienced traders.
               </p>
             </div>
           </div>
@@ -43,9 +44,7 @@ export const Service = () => {
                   <div className="card-con">
                     <div className="card-img">
                       {/* <img src={i.img} className='img-thumbnail' alt="vcdao" /> */}
-                      <div className="s-icon">
-                      {i.img}
-                      </div>
+                      <div className="s-icon">{i.img}</div>
                     </div>
                     <div className="card-head p-1">
                       <span className="h5">

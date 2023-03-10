@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSquare, FaTelegram, FaTwitter, FaChartBar } from "react-icons/fa";
+import { FaChartBar } from "react-icons/fa";
 
 export const Tokenomics = () => {
   const tkCardFunc = (color, title, result) => {
@@ -15,14 +15,17 @@ export const Tokenomics = () => {
     tkCardFunc("pink", "Tax buy/sell", "10/12 %"),
   ];
   return (
-    <div className="tk container-fluid">
+    <div className="tk container-fluid" id="tk">
       <div className="wrapper">
         <div className="tk-had p-3 text-light text-center">
           <h1 className="text-light">TOKENOMICS</h1>
-          <h4>
-            $LOPO is a streamable utility token, <br /> planned to provide a wide range
-            of benefits and incentives for LOPO users.
-          </h4>
+          <p>
+            Our DAO will issue its own token, which will be used as ameans of
+            exchange on the platform. The token will be an ERC-20 token, <br /> built
+            on the Ethereum blockchain. The token will be used to pay for
+            transaction fees on the platform, and will also be used as a <br /> means
+            of investment in the projects listed on the launchpad.
+          </p>
         </div>
         <div className="row justify-content-center align-item-center">
           <div className="col-lg-6 col-sm-8 ">

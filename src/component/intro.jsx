@@ -1,12 +1,12 @@
-import { FaLock } from "react-icons/fa";
+import { FaLock, FaBolt, FaChartLine } from "react-icons/fa";
 const Intro = () => {
   const iconFunc = (iconName, icon) => {
     return { iconName, icon };
   };
   const iconArr = [
-    iconFunc("Speed & Security", <FaLock />),
-    iconFunc("Speed & Security", <FaLock />),
-    iconFunc("Speed & Security", <FaLock />),
+    iconFunc("Secure", <FaLock />),
+    iconFunc("Transparent", <FaBolt />),
+    iconFunc("User-Friendly", <FaChartLine />),
   ];
   return (
     <>
@@ -17,12 +17,13 @@ const Intro = () => {
               <div className="text-head">
                 <h1>
                   {" "}
-                  Communicate. <br /> Collaborate. Create.
+                  Empowering your DeFi journey with cutting-edge tools <br /> -
+                  Join the revolution!
                 </h1>{" "}
                 <br />
                 <p>
-                  WeDu provides an effective and powerful way <br /> to manage
-                  your projects
+                  Experience the power of DeFi with our cutting-edge platform -
+                  Secure, Transparent, and User-friendly
                 </p>
               </div>
               <div className="text-cap">
@@ -49,7 +50,11 @@ const Intro = () => {
             <div className="col-lg-6 col-sm-12 intro-img text-center">
               <div className="row">
                 <div className="intro-img-con">
-                  <img src="vcLogo_light.png" className="img-fluid" alt="build" />
+                  <img
+                    src="vcLogo_light.png"
+                    className="img-fluid"
+                    alt="build"
+                  />
                 </div>
               </div>
             </div>
