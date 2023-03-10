@@ -24,7 +24,7 @@ export const Upcoming = () => {
                   </span>
                 </div>
                 <div className="up-img">
-                  <img src="DEX.jpg" alt="DEX" />
+                  <img src="DEX.jpeg" alt="DEX" />
                 </div>
               </div>
               <div className="col-lg-5 uw col-md-8 col-sm-12">
@@ -40,7 +40,7 @@ export const Upcoming = () => {
                   </span>
                 </div>
                 <div className="up-img">
-                  <img src="launchpad.jpeg" alt="DEX" />
+                  <img src="pad.jpg" alt="DEX" />
                 </div>
               </div>
             </div>
