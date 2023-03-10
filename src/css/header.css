@@ -94,7 +94,6 @@ header .header-logo{
     transition: all 0.5s ease-in-out;
   }
   header ul li:hover {
-    background: linear-gradient(20deg, black, green);
     transition: all 0.5s ease-in-out;
   }
   header ul li a {
@@ -107,7 +106,7 @@ header .header-logo{
     align-items: center;
     justify-content: center;
     position: fixed;
-    width: 50%;
+    width: 80%;
     height: 100vh;
     top: 0;
     bottom: 0px;
