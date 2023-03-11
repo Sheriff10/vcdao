@@ -51,7 +51,7 @@ export const Footer = () => {
                 </li>
               ))}
               <li>
-                <a href="#"> Whitepaper</a>
+              <a href="./TRIADDAO_whitepaper.pdf" download> Whitepaper</a>
               </li>
               <li>
                 <a href="#"> Launchpad</a>

@@ -2,18 +2,6 @@ import React from "react";
 import { FaChartBar } from "react-icons/fa";
 
 export const Tokenomics = () => {
-  const tkCardFunc = (color, title, result) => {
-    return { color, title, result };
-  };
-  const tkCardArr = [
-    tkCardFunc("red", "Token Name", "VC DAO"),
-    tkCardFunc("green", "Token Symbol", "VCD"),
-    tkCardFunc("white", "Network", "Arbitrum"),
-    tkCardFunc("blue", "Total Supply", "150m"),
-    tkCardFunc("orange", "Max Supply", "170m"),
-    tkCardFunc("purple", "Circulating Supply", "10m"),
-    tkCardFunc("pink", "Tax buy/sell", "10/12 %"),
-  ];
   return (
     <div className="tk container-fluid" id="tk">
       <div className="wrapper">
@@ -21,10 +9,10 @@ export const Tokenomics = () => {
           <h1 className="text-light">TOKENOMICS</h1>
           <p>
             Our DAO will issue its own token, which will be used as ameans of
-            exchange on the platform. The token will be an ERC-20 token, <br /> built
-            on the Ethereum blockchain. The token will be used to pay for
-            transaction fees on the platform, and will also be used as a <br /> means
-            of investment in the projects listed on the launchpad.
+            exchange on the platform. The token will be an ERC-20 token, <br />{" "}
+            built on the Arbitrum blockchain. The token will be used to pay for
+            transaction fees on the platform, and will also be used as a <br />{" "}
+            means of investment in the projects listed on the launchpad.
           </p>
         </div>
         <div className="row justify-content-center align-item-center">
@@ -34,23 +22,6 @@ export const Tokenomics = () => {
                 <div className="tk-img">
                   <img src="tk.png" alt="tokenomics" className="img-fluid " />
                 </div>
-                {/* {tkCardArr.map((i, index) => (
-                  <div className="col-lg-12 p-2 row" key={index}>
-                    <div className="col-2">
-                      <div className={`icon ${i.color}`}>
-                        <FaSquare />
-                      </div>
-                    </div>
-                    <div className="col-4">
-                      <div className="title">
-                        <span>{i.title}</span>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <span>{i.result}</span>
-                    </div>
-                  </div>
-                ))} */}
               </div>
             </div>
           </div>

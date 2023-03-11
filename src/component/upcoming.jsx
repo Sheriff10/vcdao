@@ -12,19 +12,17 @@ export const Upcoming = () => {
             <div className="row justify-content-center">
               <div className="col-lg-5 uw col-md-8 col-sm-12">
                 <div className="up-head">
-                  <h1>DEX</h1>
+                  <h1>Governance</h1>
                   <span>
-                    Get ready for a game-changing launch! Our team is building a
-                    cutting-edge decentralized exchange, powered by blockchain
-                    technology. Trade cryptocurrencies securely and
-                    transparently on our intuitive platform. With rigorous testing and auditing
-                    of our smart contracts, we're committed to providing a safe
-                    and reliable experience. Join us on this exciting journey
-                    towards a more decentralized future
+                    Our DAO will be governed by a decentralized decision-making
+                    process. Token holders will be able to vote on important
+                    decisions, including the listing of new projects on the
+                    launchpad, changes to the fee structure, and changes to the
+                    governance model itself.
                   </span>
                 </div>
                 <div className="up-img">
-                  <img src="DEX.jpeg" alt="DEX" />
+                  <img src="gov.jpg" alt="DEX" className="gov" />
                 </div>
               </div>
               <div className="col-lg-5 uw col-md-8 col-sm-12">

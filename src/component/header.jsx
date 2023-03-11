@@ -1,9 +1,10 @@
+// import pdf from '../../public/TRIADDAO_whitepaper.pdf'
 const Header = () => {
   const toggleMenu = () => {
     const menu = document.querySelector(".menu-btn .menu-btn-burger");
-    const slide = document.querySelector(".menu-con")
+    const slide = document.querySelector(".menu-con");
     if (menu) menu.classList.toggle("open");
-    if (slide) slide.classList.toggle('open')
+    if (slide) slide.classList.toggle("open");
   };
   // menu.addEventListener('click', () => {
   //   menu.classList.add('open')
@@ -16,7 +17,11 @@ const Header = () => {
           <div className="row">
             <div className="col-4">
               <div className="col logo-con">
-                <img src="../../vcLogo_head.png" alt="traidDao" className="header-logo"/>
+                <img
+                  src="../../vcLogo_head.png"
+                  alt="traidDao"
+                  className="header-logo"
+                />
               </div>
             </div>
             <div className="col-8 ">
@@ -35,9 +40,9 @@ const Header = () => {
                     <a href="#tk">Tokenomics</a>
                   </li>
                   <li>
-                    <div className="btn btn-light">
-                      whitepaper
-                    </div>
+                    <a href="./TRIADDAO_whitepaper.pdf" download>
+                      <div className="btn btn-light">whitepaper</div>
+                    </a>
                   </li>
                 </ul>
               </div>

@@ -7,21 +7,38 @@ import "swiper/css/pagination";
 
 export const Roadmap = () => {
   const map1 = [
-    "First Roadmap",
-    "First1 Roadmap",
-    "First 2Roadmap",
-    "First R3oadmap",
-    "First Ro4admap",
-    "First Roa5dmap",
+    "Complete Website",
+    "Create Social Media",
+    "Token Launch",
+    "Start Influencer Outreach",
+  ];
+  const map2 = [
+    "1000 Holders",
+    "Coinmarket Listing",
+    "CoinGecko Listing",
+    "Full Token Audit",
+    "Locked Liquidity",
+    "1st CEX Listing",
+  ];
+  const map3 = [
+    "Creation of TRIAD DAO",
+    "5,000 Holders",
+    "Staking/LP Rewards Activation",
+    "2nd CEX Listing",
+  ];
+  const map4 = [
+    "Partnership with Top Defi Project",
+    "CEX parnerships and listings",
   ];
   const cardFunc = (head, map) => {
     return { head, map };
   };
 
   const cardArr = [
-    cardFunc(" (Q1)", map1),
-    cardFunc("(Q2)", map1),
-    cardFunc("(Q3)", map1),
+    cardFunc("PHASE 1", map1),
+    cardFunc("PHASE 2", map2),
+    cardFunc("PHASE 3", map3),
+    cardFunc("PHASE 4", map4),
   ];
   const windowWidth = window.innerWidth;
   console.log(windowWidth);
@@ -45,7 +62,7 @@ export const Roadmap = () => {
               </div>
               <div className="head-text p-2">
                 <h1>Roadmap</h1>
-                <small>Communicate. Collaborate. Create.</small>
+                <small>Secure, Transparent, User-friendly</small>
               </div>
             </div>{" "}
             <br />
