@@ -58,7 +58,7 @@ export const Tokenomics = () => {
                           alt="dexscreener.com"
                           className="m-1 "
                         />
-                        <span>Buy on Camelot</span>
+                        <span>View on Dexscreener</span>
                       </button>
                     </div>
                   </div>
