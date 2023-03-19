@@ -32,7 +32,7 @@ export const Tokenomics = () => {
                   <span className="input-group-text">TRIAD Token:</span>
                   <input
                     type="text"
-                    value={"0xd8D4000dd9ad501FD0Ea918e2f0a22C62668Af88"}
+                    value={"0x.......8"}
                     className="form-control"
                     readOnly
                   />

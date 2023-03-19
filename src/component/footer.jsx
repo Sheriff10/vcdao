@@ -11,7 +11,7 @@ export const Footer = () => {
          "Twitter",
          "https://twitter.com/triaddao?s=21&t=XPxXw1bYBLxZJXEq0mYpTA"
       ),
-      sFunc(<FaTelegram />, "Telegram", "https://t.me/+-3w7F7xI3hwxNWMx"),
+      sFunc(<FaTelegram />, "Telegram", "https://t.me/TriadDao"),
       // sFunc(<FaDiscord />, "Discord"),
       // sFunc(<FaMedium />, "Medium"),
    ];
